@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English-Janala website</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Tailwind-daisyui cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="bg-[#C6BDBD]">
+      <nav class="w-11/12 mx-auto flex justify-between py-3">
+        <div>
+          <img src="image/Link.png" alt="" />
+        </div>
+        <div>
+          <button
+            class="btn px-6 py-5 border border-[#422AD5] text-[#422AD5] hover:bg-[#422AD5] hover:text-white font-semibold"
+          >
+            <i class="fa-regular fa-circle-question"></i>
+            FAQ
+          </button>
+          <button
+            class="btn px-6 py-5 border border-[#422AD5] text-[#422AD5] hover:bg-[#422AD5] hover:text-white font-semibold"
+          >
+            <i class="fa-brands fa-leanpub"></i>
+            Learn
+          </button>
+          <button
+            class="btn px-6 py-5 border border-[#422AD5] text-[#422AD5] hover:bg-[#422AD5] hover:text-white font-semibold"
+          >
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            Logout
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="w-11/12 mx-auto">
+      <!-- banner section -->
+      <div
+        class="container flex grid grid-cols-2 justify-between items-center justify-center py-32"
+      >
+        <div>
+          <h1 class="text-[48px] font-bold">
+            <span class="text-[#00BCFF]">English</span> is Easy!!
+          </h1>
+          <p class="text-2xl">
+            আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+            আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে
+            অন্য একটি Level এ
+          </p>
+          <form action="" class="my-12">
+            <input
+              class="py-3 px-8 rounded"
+              type="text"
+              placeholder="Enter Your Name"
+            />
+            <br />
+            <input
+              class="py-3 px-8 rounded mt-4"
+              type="password"
+              placeholder="*****"
+            />
+          </form>
+          <button class="btn bg-[#422AD5] text-white rounded">
+            Get Started
+          </button>
+        </div>
+        <!-- img -->
+        <div>
+          <img src="image/New Project 1.png" alt="" />
+        </div>
+      </div>
+      <!-- Let's Learn Vocabularies -->
+      <div class="container w-11/12 mx-auto">
+        <div>
+          <h2 class="text-[32px] font-bold text-center">
+            <span class="text-[#422AD5]">Let's </span>Learn Vocabularies
+          </h2>
+        </div>
+        <div
+          class="flex gap-5 justify-center mt-11"
+          id="button-container"
+        ></div>
+        <section class="grid grid-cols-3" id="card-container"></section>
+      </div>
+      <!-- Let's Learn Vocabularies end-->
+
+      <!-- Frequently Asked Questions -->
+      <div class="container mt-28">
+        <h2 class="text-[32px] font-bold text-center">
+          <span class="text-[#422AD5]">Frequently </span>Asked Questions
+        </h2>
+        <div class="mt-10">
+          <div
+            class="collapse collapse-plus bg-[#F8F8F8] border border-base-300"
+          >
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title font-semibold">
+              1.How can I start learning English on this website?
+            </div>
+            <div class="collapse-content text-sm">
+              Click the "Sign Up" button in the top right corner and follow the
+              registration process.
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-[#F8F8F8] mt-4 border border-base-300"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold">
+              2. Is this website free to use?
+            </div>
+            <div class="collapse-content text-sm">
+              Click on "Forgot Password" on the login page and follow the
+              instructions sent to your email.
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-[#F8F8F8] mt-4 border border-base-300"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold">
+              3. Do I need to create an account?
+            </div>
+            <div class="collapse-content text-sm">
+              Go to "My Account" settings and select "Edit Profile" to make
+              changes.
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-[#F8F8F8] mt-4 border border-base-300"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold">
+              4. How can I build my English vocabulary?
+            </div>
+            <div class="collapse-content text-sm">
+              Go to "My Account" settings and select "Edit Profile" to make
+              changes.
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-[#F8F8F8] mt-4 border border-base-300"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold">
+              5. Do you offer certificates for completed courses?
+            </div>
+            <div class="collapse-content text-sm">
+              Go to "My Account" settings and select "Edit Profile" to make
+              changes.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="w-11/12 mx-auto mt-28 flex justify-between items-center">
+      <div class="space-y-4">
+        <img src="image/Link.png" alt="" />
+        <p>ইংরেজি শিখুন সহজে</p>
+        <p>Providing ED-Tech Applications since 2025</p>
+      </div>
+      <div>
+        <p>Follow us</p>
+        <div>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
