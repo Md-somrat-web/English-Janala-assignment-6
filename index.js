@@ -30,7 +30,7 @@ const displayShow = (cards) => {
   const defaultDiv = document.getElementById("defult");
 
   if (cards.length > 0) {
-    defaultDiv.style.display = "none";
+    defaultDiv.style.display = "none";  
   }
 
   if (cards.length > 1) {
